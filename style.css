@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #19ecd0;
+  }
+  
+  header {
+    background: #e90f0f;
+    color: white;
+    text-align: center;
+    padding: 25px;
+  }
+  
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  section {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0 0 10px #1111111a;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .gustos ul {
+    padding-left: 20px;
+  }
+  
+  ol {
+    padding-left: 20px;
+  }
+  
+  .lista-habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .habilidad {
+    background: #00aaff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* FORMULARIO */
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background: #00aaff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0077aa;
+  }
+  
+  /* TABLA */
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background: #00aaff;
+    color: white;
+  }
+  
+  /* ENLACES */
+  
+  a {
+    color: #00aaff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* FOOTER */
+  
+  footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  footer p {
+    margin: 5px;
+  }
